@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+ul li{
+    font-family: "Rubik Doodle Shadow";
+    list-style: none;
+    background-color:rgb(198, 221, 241);
+    height:40px;
+    width:100%;
+    padding:0px 12px;
+    display:flex;
+    align-items:center;
+    font-size:20px;
+
+}
+.container{
+  display:grid;
+  grid-template-columns: repeat(3,10vw); 
+  grid-template-columns: repeat(3,10vw); 
+  
+  font-family: "Rubik Doodle Shadow";
+  
+}
+.game-container{
+display:flex;
+background-color:#999;
+justify-content: center;
+/* margin-top:30px; */
+height:30vw;
+
+}
+.boxtext{
+    border: 0.1vw solid rgb(198, 221, 241);
+    font-size: 6vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:whitesmoke;
+    cursor:pointer;
+
+
+}
+.boxtext:hover{
+    background-color: #a9a9a9;
+   
+}
+.br-0{
+    border-right:none;
+}
+.bt-0{
+    border-top:none;
+
+}
+.bl-0{
+    border-left:none;
+    
+}
+.bb-0{
+    border-bottom:none;
+    
+}
+.image-div{
+    display:inline-block;
+}
+.image-div img{
+    /* margin:5vw; */
+    width:0;
+    transition: width 1s ease-in-out;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.game-info{
+    margin:3vw;
+    color:aliceblue;
+    padding:3vw; 
+    font-family:"Rubik Doodle Shadow" ;
+}
+#btn{
+    height:2vw;
+    margin:20px;
+    width:5vw;
+    color:#a9a9a9;
+    border:1px solid whitesmoke;
+    font-family: "Rubik Doodle Shadow";
+    background-color:  rgb(198, 221, 241);
+}
+
+.turn{
+    margin:30px;
+}
+h2{
+background-color: rgb(198, 221, 241);
+color:#a9a9a9;
+border:2px solid aliceblue;
+box-shadow:5px 5px 5px rgb(198, 221, 241);
+
+}
+#btn:hover{
+    box-shadow:5px 5px 5px rgb(198, 221, 241);
+}
